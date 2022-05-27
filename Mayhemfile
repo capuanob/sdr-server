@@ -1,0 +1,10 @@
+image: ghcr.io/capuanob/sdr-server-fuzz:latest
+project: sdr-server
+target: sdr-server-fuzz
+
+cmds:
+  - cmd: /sdr_server /configuration.config
+    network:
+      client: false
+      url: tcp://127.0.0.1:8089
+      timeout: 2.0
