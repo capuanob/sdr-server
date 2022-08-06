@@ -1,4 +1,3 @@
-image: ghcr.io/capuanob/sdr-server-fuzz:latest
 project: sdr-server
 target: sdr-server-fuzz
 
